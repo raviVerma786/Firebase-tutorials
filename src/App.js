@@ -6,7 +6,7 @@ import { createUserWithEmailAndPassword, getAuth, signOut } from "firebase/auth"
 import SignUp from './pages/SignUp';
 import SignIn from './pages/SignIn';
 
-import { useFirebase } from './Context/firebase';
+// import { useFirebase } from './Context/firebase';
 import { useState } from 'react';
 
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
