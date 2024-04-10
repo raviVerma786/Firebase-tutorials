@@ -115,7 +115,8 @@ const App = () => {
       else{
         //user is logged out
         setUser(null);
-        console.log('you are logged out');
+        // console.log('you are logged out');
+        
       }
     })
   },[user]);
