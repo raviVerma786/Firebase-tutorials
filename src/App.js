@@ -111,12 +111,13 @@ const App = () => {
         // yes you are logged in
         setUser(user);
         console.log('Hello',user);
+        console.log("I am in");
       }
       else{
         //user is logged out
         setUser(null);
         // console.log('you are logged out');
-        
+
       }
     })
   },[user]);
